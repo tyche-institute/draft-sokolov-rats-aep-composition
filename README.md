@@ -1,4 +1,4 @@
-<!-- regenerate: on (set to off if you edit this file) -->
+<!-- regenerate: off -->
 
 # Composing Application-Layer Action Evidence with Remote Attestation Procedures
 
@@ -29,3 +29,20 @@ $ make
 Command line usage requires that you have the necessary software installed.  See
 [the instructions](https://github.com/martinthomson/i-d-template/blob/main/doc/SETUP.md).
 
+## Current editor baseline
+
+The `main` branch incorporates the changes prepared for revision `-06`
+(30 August 2026). Relative to `-05`, it:
+
+- distinguishes an AEP Record carried as `application/vnd.aep+zip` from an EAT
+  carrying the AEP Evidence Claims-Set under an RFC 9782 EAT media type;
+- describes the experiment's record-specific PCR Reference Value as a bounded
+  test constraint and gives the pre-AEP state plus event-log replay deployment
+  pattern; and
+- requires `eat_nonce` comparison for a future complete profile that claims
+  same-window freshness.
+
+Section 16 is unchanged from `-05`. The broader chain-anchoring proposal is not
+folded wholesale into this baseline; focused pull requests against
+[`draft-sokolov-rats-aep-composition.xml`](draft-sokolov-rats-aep-composition.xml)
+are welcome.
