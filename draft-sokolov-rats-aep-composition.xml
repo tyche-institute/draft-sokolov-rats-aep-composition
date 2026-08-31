@@ -18,7 +18,8 @@
        -06 distinguishes the AEP Record media type from EAT media types, clarifies the
        experiment-specific PCR Reference Value and the event-log replay deployment pattern,
        and makes nonce comparison mandatory for a future profile claiming same-window freshness.
-       Section 16 is unchanged from -05. -->
+       Section 16 is unchanged from -05. The editor source was refreshed on
+       2026-08-31 to cite the published -01 revision of VACR. -->
 <rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-sokolov-rats-aep-composition-latest" category="info" submissionType="IETF" version="3">
   <!-- xml2rfc v2v3 conversion 3.34.0 -->
   <front>
@@ -34,7 +35,7 @@
         <email>anton.sokolov@tyche.institute</email>
       </address>
     </author>
-    <date year="2026" month="August" day="30"/>
+    <date year="2026" month="August" day="31"/>
     <area>Security</area>
     <workgroup>Remote ATtestation ProcedureS (RATS)</workgroup>
     <keyword>attestation</keyword>
@@ -653,15 +654,15 @@ this document, nor of the format the name identifies.</t>
           </front>
           <seriesInfo name="Internet-Draft" value="draft-ietf-rats-multi-verifier-00"/>
         </reference>
-        <reference anchor="I-D.birkholz-verifiable-agent-conversations" target="https://datatracker.ietf.org/doc/html/draft-birkholz-verifiable-agent-conversations-00" xml:base="https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.birkholz-verifiable-agent-conversations.xml">
+        <reference anchor="I-D.birkholz-verifiable-agent-conversations" target="https://datatracker.ietf.org/doc/html/draft-birkholz-verifiable-agent-conversations-01" xml:base="https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.birkholz-verifiable-agent-conversations.xml">
           <front>
             <title>Verifiable Agent Conversation Records</title>
             <author fullname="Henk Birkholz" initials="H." surname="Birkholz"/>
             <author fullname="Tobias Heldt" initials="T." surname="Heldt"/>
             <author fullname="Orie Steele" initials="O." surname="Steele"/>
-            <date day="25" month="February" year="2026"/>
+            <date day="31" month="August" year="2026"/>
           </front>
-          <seriesInfo name="Internet-Draft" value="draft-birkholz-verifiable-agent-conversations-00"/>
+          <seriesInfo name="Internet-Draft" value="draft-birkholz-verifiable-agent-conversations-01"/>
         </reference>
         <reference anchor="I-D.kuehlewind-audit-architecture" target="https://datatracker.ietf.org/doc/html/draft-kuehlewind-audit-architecture-00" xml:base="https://bib.ietf.org/public/rfc/bibxml3/reference.I-D.kuehlewind-audit-architecture.xml">
           <front>

@@ -31,8 +31,8 @@ Command line usage requires that you have the necessary software installed.  See
 
 ## Current editor baseline
 
-The `main` branch incorporates the changes prepared for revision `-06`
-(30 August 2026). Relative to `-05`, it:
+The editor branch incorporates the changes prepared for revision `-06`
+(refreshed 31 August 2026). Relative to `-05`, it:
 
 - distinguishes an AEP Record carried as `application/vnd.aep+zip` from an EAT
   carrying the AEP Evidence Claims-Set under an RFC 9782 EAT media type;
@@ -41,6 +41,9 @@ The `main` branch incorporates the changes prepared for revision `-06`
   pattern; and
 - requires `eat_nonce` comparison for a future complete profile that claims
   same-window freshness.
+
+The reference snapshot cites the published `-01` revision of Verifiable Agent
+Conversation Records.
 
 Section 16 is unchanged from `-05`. The broader chain-anchoring proposal is not
 folded wholesale into this baseline; focused pull requests against
