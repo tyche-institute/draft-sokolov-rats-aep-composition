@@ -4,8 +4,8 @@
 
 Remote ATtestation ProcedureS (RATS)                          A. Sokolov
 Internet-Draft                                           Tyche Institute
-Intended status: Informational                            30 August 2026
-Expires: 3 March 2027
+Intended status: Informational                            31 August 2026
+Expires: 4 March 2027
 
 
   Composing Application-Layer Action Evidence with Remote Attestation
@@ -48,7 +48,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 March 2027.
+   This Internet-Draft will expire on 4 March 2027.
 
 Copyright Notice
 
@@ -784,9 +784,9 @@ Table of Contents
    [I-D.birkholz-verifiable-agent-conversations]
               Birkholz, H., Heldt, T., and O. Steele, "Verifiable Agent
               Conversation Records", Work in Progress, Internet-Draft,
-              draft-birkholz-verifiable-agent-conversations-00, 25
-              February 2026, <https://datatracker.ietf.org/doc/html/
-              draft-birkholz-verifiable-agent-conversations-00>.
+              draft-birkholz-verifiable-agent-conversations-01, 31
+              August 2026, <https://datatracker.ietf.org/doc/html/draft-
+              birkholz-verifiable-agent-conversations-01>.
 
    [I-D.kuehlewind-audit-architecture]
               Kuehlewind, M. and H. Birkholz, "An Architecture for
