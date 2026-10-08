@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-10-06T00:35:47.533210+00:00",
+  "timestamp": "2026-10-08T00:35:38.443917+00:00",
   "repo": "tyche-institute/draft-sokolov-rats-aep-composition",
   "labels": [
     {
@@ -50,5 +50,34 @@
     }
   ],
   "issues": [],
-  "pulls": []
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOUIyI-c8AAAABG48Okg",
+      "title": "ci: pin runs-on to ubuntu-24.04 before ubuntu-latest moves to Ubuntu 26.04",
+      "url": "https://github.com/tyche-institute/draft-sokolov-rats-aep-composition/pull/1",
+      "state": "MERGED",
+      "author": "tyche-dev",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "GitHub moves the `ubuntu-latest` label to the Ubuntu 26.04 image between 19 October and 19 November 2026 ([actions/runner-images#14748](https://github.com/actions/runner-images/issues/14748)). This PR pins the jobs below to `ubuntu-24.04`, the image `ubuntu-latest` resolves to today, so nothing changes in what runs. Ubuntu 24.04 stays supported for about two more years.\n\n**Why these jobs.** Datatracker upload on `draft-*` tags. The i-d-template action runs in its own container, so the risk is small, but the IETF Internet-Draft cutoff on 2 November 2026 falls inside the migration window.\n\n**Changed** (only `runs-on: ubuntu-latest` lines):\n- `.github/workflows/publish.yml`: 1 line(s) -> ubuntu-24.04\n\n**Merging.** Merging runs the editor's-copy build as on any push.\n\n\ud83e\udd16 Generated with [Claude Code](https://claude.com/claude-code)\n",
+      "createdAt": "2026-10-06T10:18:44Z",
+      "updatedAt": "2026-10-06T14:08:46Z",
+      "baseRepository": "tyche-institute/draft-sokolov-rats-aep-composition",
+      "baseRefName": "main",
+      "baseRefOid": "67a25ace1b3b149ccfad5ee05f115c7cb4dc6bb2",
+      "headRepository": "tyche-institute/draft-sokolov-rats-aep-composition",
+      "headRefName": "ci/pin-ubuntu-24.04",
+      "headRefOid": "ffc2c8b5ace4185fc9cb11583c59ba20414e3599",
+      "closedAt": "2026-10-06T14:08:44Z",
+      "mergedAt": "2026-10-06T14:08:44Z",
+      "mergedBy": "tyche-dev",
+      "mergeCommit": {
+        "oid": "e4fe6f5d07c1ae269569c8eaea60c32a165acc50"
+      },
+      "comments": [],
+      "reviews": []
+    }
+  ]
 }
