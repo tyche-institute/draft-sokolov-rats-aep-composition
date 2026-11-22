@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-11-19T00:21:04.389494+00:00",
+  "timestamp": "2026-11-22T00:22:13.595418+00:00",
   "repo": "tyche-institute/draft-sokolov-rats-aep-composition",
   "labels": [
     {
@@ -49,7 +49,24 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 2,
+      "id": "I_kwDOUIyI-c8AAAABgnEY3g",
+      "title": "Proposal: section on composing AEP with human-effort Evidence (CPoE)",
+      "url": "https://github.com/tyche-institute/draft-sokolov-rats-aep-composition/issues/2",
+      "state": "OPEN",
+      "author": "dcondrey",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "The draft composes an AEP with platform Evidence. It does not cover a document carrying both an AEP and human-process Evidence such as a CPoE Evidence Packet (draft-condrey-cpoe-protocol, draft-condrey-cpoe-appraisal), the motivating case in proof-of-effort#92.\n\nI can draft a section covering joint appraisal by one Verifier or a composition of Verifiers, mapping the AEP result to the same EAR projection as a CPoE Attestation Result, and applying the forgery-cost calibration from proof-of-effort#144. I would send a PR and iterate here first, under the repository's IETF IPR terms with DCO sign-off. Is this in scope?\n",
+      "createdAt": "2026-11-19T05:57:33Z",
+      "updatedAt": "2026-11-19T05:58:51Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
   "pulls": [
     {
       "number": 1,
